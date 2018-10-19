@@ -13,7 +13,6 @@ function load(){
 		}
 		return $page; //retorna a page para o sistema carregar
 	}elseif(isset($form)){
-		dd($_POST);
 		$form = (!$form) ? 'pages/forms/home.php' : 'pages/forms/'.$form.'.php'; //se não existir nenhum GET(?page=#####) vai para a pagina home
 
 		if (!file_exists($form)) { //verifica se o arquivo $form existe
