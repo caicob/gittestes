@@ -1,0 +1,1 @@
+<span class="label">Bem vindo, <?= $user->name?>!</span><a href="/?form=logout" class="btn btn-warming">Logout</a>
